@@ -42,11 +42,16 @@ function createData(name, calories, fat, carbs, protein) {
 }
 
 const data = [
-    createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-    createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-    createData('Eclair', 262, 16.0, 24, 6.0),
-    createData('Cupcake', 305, 3.7, 67, 4.3),
-    createData('Gingerbread', 356, 16.0, 49, 3.9),
+    createData('Tree token', 159, 'Buy', 24, 50000),
+    createData('Flower token', 234, 'Buy', 24, 4554),
+    createData('Plant token', 159, 'Buy', 24, 2342),
+    createData('Air token', 23, 'Buy', 24, 50000),
+    createData('Fire token', 234, 'Buy', 24, 3423),
+    createData('Flower token', 234, 'Buy', 24, 50000),
+    createData('Sunflower token', 567, 'Buy', 24, 5757),
+    createData('Tree token', 159, 'Buy', 24, 567565),
+    createData('Tree token', 567, 'Buy', 24, 76576),
+    createData('Tree token', 159, 'Buy', 24, 8979),
 ];
 
 function CustomizedTable(props) {
@@ -57,11 +62,11 @@ function CustomizedTable(props) {
             <Table className={classes.table}>
                 <TableHead>
                     <TableRow>
-                        <CustomTableCell>Dessert (100g serving)</CustomTableCell>
-                        <CustomTableCell numeric>Calories</CustomTableCell>
-                        <CustomTableCell numeric>Fat (g)</CustomTableCell>
-                        <CustomTableCell numeric>Carbs (g)</CustomTableCell>
-                        <CustomTableCell numeric>Protein (g)</CustomTableCell>
+                        <CustomTableCell>Asset</CustomTableCell>
+                        <CustomTableCell numeric>Price (E)</CustomTableCell>
+                        <CustomTableCell>Operation</CustomTableCell>
+                        <CustomTableCell numeric>CO2 / Natural capital</CustomTableCell>
+                        <CustomTableCell numeric>Quantity ($)</CustomTableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>

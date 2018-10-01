@@ -12,14 +12,14 @@ const DataTables = () => {
                      headerOutside>
                 <DataTable/>
             </CardBox>
-            <CardBox styleName="col-12" cardStyle=" p-0" heading={<IntlMessages id="table.customTable"/>}
-                     headerOutside>
-                <CustomTable/>
-            </CardBox>
-            <CardBox styleName="col-12" cardStyle="mb-0 p-0" heading={<IntlMessages id="table.customizedTable"/>}
-                     headerOutside>
-                <CustomizedTable/>
-            </CardBox>
+            {/*<CardBox styleName="col-12" cardStyle=" p-0" heading={<IntlMessages id="table.customTable"/>}*/}
+                     {/*headerOutside>*/}
+                {/*<CustomTable/>*/}
+            {/*</CardBox>*/}
+            {/*<CardBox styleName="col-12" cardStyle="mb-0 p-0" heading={<IntlMessages id="table.customizedTable"/>}*/}
+                     {/*headerOutside>*/}
+                {/*<CustomizedTable/>*/}
+            {/*</CardBox>*/}
         </div>
 
     );

@@ -80,9 +80,9 @@ class SidenavContent extends Component {
             <CustomScrollbars className=" scrollbar">
                 <ul className="nav-menu">
 
-                    <li className="nav-header"><IntlMessages id="sidebar.main"/></li>
+                    {/*<li className="nav-header"><IntlMessages id="sidebar.main"/></li>*/}
 
-                    <li className="menu collapse-box">
+                  <li className="menu collapse-box">
                         <Button href="javascript:void(0)">
                             <i className="zmdi zmdi-view-dashboard zmdi-hc-fw"/>
                             <span className="nav-text">
@@ -115,215 +115,215 @@ class SidenavContent extends Component {
                         </ul>
                     </li>
 
-                    <li className="ui_tooltip menu">
-                        <Button className="void" href="javascript:void(0)">
-                            <i className="zmdi zmdi-folder zmdi-hc-fw"/>
-                            <span className="nav-text"><IntlMessages id="sidebar.components"/></span>
-                        </Button>
+                    {/*<li className="ui_tooltip menu">*/}
+                        {/*<Button className="void" href="javascript:void(0)">*/}
+                            {/*<i className="zmdi zmdi-folder zmdi-hc-fw"/>*/}
+                            {/*<span className="nav-text"><IntlMessages id="sidebar.components"/></span>*/}
+                        {/*</Button>*/}
 
-                        <ul className="sub-menu">
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/alerts">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.alerts"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/appbar">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.appbar"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/auto-complete">
-                                    <span className="nav-text"><IntlMessages
-                                        id="sidebar.components.autocomplete"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/avatars">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.avatars"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/badges">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.badge"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/bottom-navigation">
-                                <span className="nav-text"><IntlMessages
-                                    id="sidebar.components.bottomNavigation"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/breadcrumbs">
-                                    <span className="nav-text"><IntlMessages
-                                        id="sidebar.components.breadcrumbs"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/buttons">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.buttons"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/button-group">
-                                    <span className="nav-text"><IntlMessages
-                                        id="sidebar.components.buttonGroup"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/cards">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.cards"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/carousel">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.carousel"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/chips">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.chips"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/color-picker">
-                                    <span className="nav-text"><IntlMessages
-                                        id="sidebar.components.colorPicker"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/dialogs">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.dialogs"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/dividers">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.dividers"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/expansion-panel">
-                                    <span className="nav-text"><IntlMessages
-                                        id="sidebar.components.expansionPanel"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/drawer">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.drawer"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/grid-list">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.gridList"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/list">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.lists"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/menu-paper">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.menusPaper"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/pickers">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.pickers"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/popovers">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.popovers"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/progressbar">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.progress"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/selects">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.selects"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/selection">
-                                <span className="nav-text"><IntlMessages
-                                    id="sidebar.components.selectionControl"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/snackbar">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.snackbars"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/stepper">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.stepper"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/tables">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.tables"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/components/tabs">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.tabs"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/text-fields">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.textFields"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/tooltips">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.tooltips"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/components/typography">
-                                    <span className="nav-text"><IntlMessages id="sidebar.components.typography"/></span>
-                                </NavLink>
-                            </li>
-                        </ul>
-                    </li>
+                        {/*<ul className="sub-menu">*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/alerts">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.alerts"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/appbar">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.appbar"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/auto-complete">*/}
+                                    {/*<span className="nav-text"><IntlMessages*/}
+                                        {/*id="sidebar.components.autocomplete"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/avatars">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.avatars"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/badges">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.badge"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/bottom-navigation">*/}
+                                {/*<span className="nav-text"><IntlMessages*/}
+                                    {/*id="sidebar.components.bottomNavigation"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/breadcrumbs">*/}
+                                    {/*<span className="nav-text"><IntlMessages*/}
+                                        {/*id="sidebar.components.breadcrumbs"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/buttons">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.buttons"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/button-group">*/}
+                                    {/*<span className="nav-text"><IntlMessages*/}
+                                        {/*id="sidebar.components.buttonGroup"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/cards">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.cards"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/carousel">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.carousel"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/chips">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.chips"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/color-picker">*/}
+                                    {/*<span className="nav-text"><IntlMessages*/}
+                                        {/*id="sidebar.components.colorPicker"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/dialogs">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.dialogs"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/dividers">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.dividers"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/expansion-panel">*/}
+                                    {/*<span className="nav-text"><IntlMessages*/}
+                                        {/*id="sidebar.components.expansionPanel"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/drawer">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.drawer"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/grid-list">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.gridList"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/list">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.lists"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/menu-paper">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.menusPaper"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/pickers">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.pickers"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/popovers">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.popovers"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/progressbar">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.progress"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/selects">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.selects"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/selection">*/}
+                                {/*<span className="nav-text"><IntlMessages*/}
+                                    {/*id="sidebar.components.selectionControl"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/snackbar">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.snackbars"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/stepper">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.stepper"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/tables">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.tables"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/components/tabs">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.tabs"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/text-fields">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.textFields"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/tooltips">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.tooltips"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/components/typography">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.components.typography"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                        {/*</ul>*/}
+                    {/*</li>*/}
 
-                    <li className="menu no-arrow">
-                        <NavLink to="/app/widgets">
-                            <i className="zmdi zmdi-widgets zmdi-hc-fw"/>
-                            <span className="nav-text"><IntlMessages id="sidebar.widgets"/></span>
-                        </NavLink>
-                    </li>
+                    {/*<li className="menu no-arrow">*/}
+                        {/*<NavLink to="/app/widgets">*/}
+                            {/*<i className="zmdi zmdi-widgets zmdi-hc-fw"/>*/}
+                            {/*<span className="nav-text"><IntlMessages id="sidebar.widgets"/></span>*/}
+                        {/*</NavLink>*/}
+                    {/*</li>*/}
 
-                    <li className="menu no-arrow">
-                        <NavLink to="/app/metrics">
-                            <i className="zmdi zmdi-trending-up zmdi-hc-fw"/>
-                            <span className="nav-text"><IntlMessages id="sidebar.metrics"/></span>
-                        </NavLink>
-                    </li>
+                    {/*<li className="menu no-arrow">*/}
+                        {/*<NavLink to="/app/metrics">*/}
+                            {/*<i className="zmdi zmdi-trending-up zmdi-hc-fw"/>*/}
+                            {/*<span className="nav-text"><IntlMessages id="sidebar.metrics"/></span>*/}
+                        {/*</NavLink>*/}
+                    {/*</li>*/}
 
-                    <li className="nav-header"><IntlMessages id="sidebar.view"/></li>
+                    {/*<li className="nav-header"><IntlMessages id="sidebar.view"/></li>*/}
 
                     <li className="menu collapse-box">
                         <Button href="javascript:void(0)">
@@ -345,68 +345,68 @@ class SidenavContent extends Component {
                         </ul>
                     </li>
 
-                    <li className="timeline_tooltip menu">
-                        <Button href="javascript:void(0)">
-                            <i className="zmdi zmdi-swap-alt zmdi-hc-fw zmdi-hc-rotate-90"/>
-                            <span className="nav-text"><IntlMessages id="sidebar.timeLine"/></span>
-                        </Button>
-                        <ul className="sub-menu">
+                    {/*<li className="timeline_tooltip menu">*/}
+                        {/*<Button href="javascript:void(0)">*/}
+                            {/*<i className="zmdi zmdi-swap-alt zmdi-hc-fw zmdi-hc-rotate-90"/>*/}
+                            {/*<span className="nav-text"><IntlMessages id="sidebar.timeLine"/></span>*/}
+                        {/*</Button>*/}
+                        {/*<ul className="sub-menu">*/}
 
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/time-line/default">
-                                    <span className="nav-text"><IntlMessages id="sidebar.timeLine.default"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/time-line/default-with-icon">
-                                    <span className="nav-text"><IntlMessages
-                                        id="sidebar.timeLine.defaultwithIcons"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/time-line/left-align">
-                                    <span className="nav-text"><IntlMessages id="sidebar.timeLine.leftAligned"/></span>
-                                </NavLink>
-                            </li>
-                            {/*<li>
-                            <NavLink className="prepend-icon" to="/app/time-line/zigzag">
-                                <span className="nav-text"><IntlMessages id="sidebar.timeLine.zigzag"/></span>
-                            </NavLink>
-                        </li>*/}
-                        </ul>
-                    </li>
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/time-line/default">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.timeLine.default"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/time-line/default-with-icon">*/}
+                                    {/*<span className="nav-text"><IntlMessages*/}
+                                        {/*id="sidebar.timeLine.defaultwithIcons"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/time-line/left-align">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.timeLine.leftAligned"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*<NavLink className="prepend-icon" to="/app/time-line/zigzag">*/}
+                                {/*<span className="nav-text"><IntlMessages id="sidebar.timeLine.zigzag"/></span>*/}
+                            {/*</NavLink>*/}
+                        {/*</li>*/}
+                        {/*</ul>*/}
+                    {/*</li>*/}
 
-                    <li className="menu">
-                        <Button href="javascript:void(0)">
-                            <i className="zmdi zmdi-view-list zmdi-hc-fw"/>
-                            <span className="nav-text"><IntlMessages id="sidebar.customViews"/></span>
-                        </Button>
-                        <ul className="sub-menu">
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/custom-views/simple-list">
-                                    <span className="nav-text"><IntlMessages
-                                        id="sidebar.customViews.plainListView"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/custom-views/strip-list">
-                                    <span className="nav-text"><IntlMessages
-                                        id="sidebar.customViews.withDivider"/></span>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink className="prepend-icon"
-                                         to="/app/custom-views/card-list">
-                                    <span className="nav-text"><IntlMessages
-                                        id="sidebar.customViews.cardListView"/></span>
-                                </NavLink>
-                            </li>
-                        </ul>
-                    </li>
+                    {/*<li className="menu">*/}
+                        {/*<Button href="javascript:void(0)">*/}
+                            {/*<i className="zmdi zmdi-view-list zmdi-hc-fw"/>*/}
+                            {/*<span className="nav-text"><IntlMessages id="sidebar.customViews"/></span>*/}
+                        {/*</Button>*/}
+                        {/*<ul className="sub-menu">*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/custom-views/simple-list">*/}
+                                    {/*<span className="nav-text"><IntlMessages*/}
+                                        {/*id="sidebar.customViews.plainListView"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/custom-views/strip-list">*/}
+                                    {/*<span className="nav-text"><IntlMessages*/}
+                                        {/*id="sidebar.customViews.withDivider"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon"*/}
+                                         {/*to="/app/custom-views/card-list">*/}
+                                    {/*<span className="nav-text"><IntlMessages*/}
+                                        {/*id="sidebar.customViews.cardListView"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+                        {/*</ul>*/}
+                    {/*</li>*/}
 
                     <li className="nav-header"><IntlMessages id="sidebar.form"/></li>
 
@@ -416,11 +416,11 @@ class SidenavContent extends Component {
                             <span className="nav-text"><IntlMessages id="sidebar.forms"/></span>
                         </Button>
                         <ul className="sub-menu">
-                            <li>
-                                <NavLink className="prepend-icon" to="/app/form/components">
-                                    <span className="nav-text"><IntlMessages id="sidebar.forms.components"/></span>
-                                </NavLink>
-                            </li>
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/form/components">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.forms.components"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
                             <li>
                                 <NavLink className="prepend-icon" to="/app/form/stepper">
                                     <span className="nav-text"><IntlMessages id="sidebar.forms.stepper"/></span>

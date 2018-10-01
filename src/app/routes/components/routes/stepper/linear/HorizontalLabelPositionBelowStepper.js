@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import IntlMessages from 'util/IntlMessages';
 
 function getSteps() {
-    return ['Account Information', 'Personal Information', 'Payment Information', 'Confirm and Finish'];
+    return ['General project information', 'Fundraising details', 'Additional documents', 'Legal parties', 'Confirm and Finish'];
 }
 
 function getStepContent(stepIndex) {

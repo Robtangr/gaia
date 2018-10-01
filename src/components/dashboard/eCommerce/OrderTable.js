@@ -12,10 +12,10 @@ function createData(orderId, name, image, orderDate, deliveryDate, status) {
 class OrderTable extends Component {
     state = {
         data: [
-            createData('23545', 'Alex Dolgove', 'http://via.placeholder.com/150x150', '25 Oct', '25 Oct', 'Completed'),
-            createData('23653', 'Domnic Brown', 'http://via.placeholder.com/150x150', '28 Oct', '1 Nov', 'On Hold'),
-            createData('24567', 'Garry Sobars', 'http://via.placeholder.com/150x150', '5 Nov', '10 Nov', 'Delayed'),
-            createData('25745', 'Stella Johnson', 'http://via.placeholder.com/150x150', '23 Nov', '26 Nov', 'Cancelled'),
+            createData('23545', 'Etihad', 'http://via.placeholder.com/150x150', '25 Oct', '25 Oct', 'Completed'),
+            createData('23653', 'Emirates', 'http://via.placeholder.com/150x150', '28 Oct', '1 Nov', 'On Hold'),
+            createData('24567', 'Air Serbia', 'http://via.placeholder.com/150x150', '5 Nov', '10 Nov', 'Delayed'),
+            createData('25745', 'RyanAir', 'http://via.placeholder.com/150x150', '23 Nov', '26 Nov', 'Cancelled'),
         ],
     };
 

@@ -48,19 +48,19 @@ const BasicTables = () => {
                 </div>
             </div>
 
-            <div className="row mb-md-4">
-                <CardBox styleName="col-lg-12" cardStyle="p-0" heading={<IntlMessages id="table.application"/>}
-                         headerOutside>
-                    <ApplicationTable/>
-                </CardBox>
-            </div>
+            {/*<div className="row mb-md-4">*/}
+                {/*<CardBox styleName="col-lg-12" cardStyle="p-0" heading={<IntlMessages id="table.application"/>}*/}
+                         {/*headerOutside>*/}
+                    {/*<ApplicationTable/>*/}
+                {/*</CardBox>*/}
+            {/*</div>*/}
 
-            <div className="row">
-                <CardBox styleName="col-lg-12" cardStyle="mb-0 p-0" heading={<IntlMessages id="table.dataTable"/>}
-                         headerOutside>
-                    <DataTable/>
-                </CardBox>
-            </div>
+            {/*<div className="row">*/}
+                {/*<CardBox styleName="col-lg-12" cardStyle="mb-0 p-0" heading={<IntlMessages id="table.dataTable"/>}*/}
+                         {/*headerOutside>*/}
+                    {/*<DataTable/>*/}
+                {/*</CardBox>*/}
+            {/*</div>*/}
         </div>
     );
 };
