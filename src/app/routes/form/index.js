@@ -8,7 +8,9 @@ const Form = ({match}) => (
         <Switch>
             <Redirect exact from={`${match.url}/`} to={`${match.url}/components`}/>
             <Route path={`${match.url}/components`} component={asyncComponent(() => import('./routes/components'))}/>
-            <Route path={`${match.url}/stepper`} component={asyncComponent(() => import('./routes/stepper'))}/>
+            {/*<Route path={`${match.url}/stepper`} component={asyncComponent(() => import('./routes/stepper'))}/>*/}
+            <Route path={`${match.url}/tokenization`} component={asyncComponent(() => import('./routes/tokenization'))}/>
+
             <Route component={asyncComponent(() => import('app/routes/extraPages/routes/404'))}/>
         </Switch>
     </div>

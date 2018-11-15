@@ -32,7 +32,7 @@
   "sidebar.components.selects": "Selects",
   "sidebar.components.selectionControl": "Selection Controls",
   "sidebar.components.snackbars": "Snackbars",
-  "sidebar.components.stepper": "New Asset form",
+  "sidebar.components.stepper": " ",
   "sidebar.components.tables": "Tables",
   "sidebar.components.tabs": "Tabs",
   "sidebar.components.textFields": "Text Fields",
@@ -57,6 +57,8 @@
   "sidebar.forms": "Tokenization",
   "sidebar.forms.components": "Components",
   "sidebar.forms.stepper": "Create new tokenized asset",
+  "sidebar.forms.tokenization": "Create new tokenized asset",
+
   "sidebar.extensions": "Extensions",
   "sidebar.editors": "Editors",
   "sidebar.editors.CKEditor": "CKEditor",
@@ -555,5 +557,21 @@
   "popup.statistics": "Statistics",
   "popup.clearData": "Clear Data",
   "component.selectionControl.radioBtnGroup": "Radio Buttons Group",
-  "component.popover.anchorPlayground": "Anchor Playground"
+  "component.popover.anchorPlayground": "Anchor Playground",
+  "component.tokenization.generalProjectInformation":"General Project Information",
+  "component.tokenization.label.projectType":"Type of Project",
+  "component.tokenization.label.assetType":"Type of Asset *",
+  "component.tokenization.label.assetName":"Asset Name *",
+
+  "component.tokenization.label.geoFocus":"Geographic Focus",
+  "component.tokenization.label.countryFocus1":"Country Focus 1",
+  "component.tokenization.label.countryFocus2":"Country Focus 2",
+  "component.tokenization.label.projectCategory":"Project Category"
+
+
+
+
+
+
+
 }

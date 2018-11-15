@@ -421,9 +421,16 @@ class SidenavContent extends Component {
                                     {/*<span className="nav-text"><IntlMessages id="sidebar.forms.components"/></span>*/}
                                 {/*</NavLink>*/}
                             {/*</li>*/}
+
+                            {/*<li>*/}
+                                {/*<NavLink className="prepend-icon" to="/app/form/stepper">*/}
+                                    {/*<span className="nav-text"><IntlMessages id="sidebar.forms.stepper"/></span>*/}
+                                {/*</NavLink>*/}
+                            {/*</li>*/}
+
                             <li>
-                                <NavLink className="prepend-icon" to="/app/form/stepper">
-                                    <span className="nav-text"><IntlMessages id="sidebar.forms.stepper"/></span>
+                                <NavLink className="prepend-icon" to="/app/form/tokenization">
+                                    <span className="nav-text"><IntlMessages id="sidebar.forms.tokenization"/></span>
                                 </NavLink>
                             </li>
                         </ul>
