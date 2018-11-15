@@ -27174,5 +27174,13 @@ body.dark-theme {
   height: 120px;
   border: 2px dashed darkgray;
   padding: 4px;
+  vertical-align: middle;
+  text-align: center;
+  display: table;
 }
+
+.nudge {
+  padding-top: 3px;
+}
+
 /*# sourceMappingURL=jumbo.css.map */

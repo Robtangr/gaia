@@ -316,11 +316,30 @@ class TokenizationFlow extends React.Component {
                 </div>
                 <div className="col-md-6">
                     <div className="row">
-                        <div className="col-md-12 p-2">
-
+                        <div className="col-md-12 p-2 ">
+                            <div className="form-group nudge">
+                                <TextField
+                                    rows="5"
+                                    label="About"
+                                    placeholder="Describe your project here"
+                                    multiline
+                                    margin="normal"
+                                    fullWidth
+                                />
+                            </div>
                         </div>
                         <div className="col-md-12">
-                            Highlights
+                            <div className="form-group">
+                                <TextField
+                                    rows="5"
+                                    label="Highlights"
+                                    placeholder="Project Highlights"
+                                    multiline
+                                    margin="normal"
+                                    fullWidth
+                                />
+                            </div>
+
                         </div>
 
                     </div>
@@ -345,7 +364,7 @@ class TokenizationFlow extends React.Component {
                                 if (isDragReject) {
                                     return 'Some files will be rejected';
                                 }
-                                return '';
+                                return 'Drag here or browse to upload';
                             }}
                         </Dropzone>
                     </div>
