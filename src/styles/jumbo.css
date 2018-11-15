@@ -27169,4 +27169,10 @@ body.dark-theme {
   direction: ltr;
 }
 
+.dropDefault {
+  width: 100%;
+  height: 120px;
+  border: 2px dashed darkgray;
+  padding: 4px;
+}
 /*# sourceMappingURL=jumbo.css.map */

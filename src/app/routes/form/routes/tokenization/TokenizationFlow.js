@@ -148,6 +148,7 @@ function getConfirmation() {
     </div>
 }
 
+
 class TokenizationFlow extends React.Component {
     state = {
         activeStep: 0,
@@ -315,27 +316,8 @@ class TokenizationFlow extends React.Component {
                 </div>
                 <div className="col-md-6">
                     <div className="row">
-                        <div className="col-md-12">
-                            <div className="form-group-dropzone">
-                                <InputLabel htmlFor="about">About</InputLabel>
-                                <Dropzone
-                                    name="about"
-                                    accept=".jpeg,.png"
-                                    onDrop={(accepted, rejected) => {
-                                        this.setState({accepted, rejected});
-                                    }}
-                                >
-                                    {({isDragActive, isDragReject}) => {
-                                        if (isDragActive) {
-                                            return 'All files will be accepted';
-                                        }
-                                        if (isDragReject) {
-                                            return 'Some files will be rejected';
-                                        }
-                                        return 'Dropping some files here...';
-                                    }}
-                                </Dropzone>
-                            </div>
+                        <div className="col-md-12 p-2">
+
                         </div>
                         <div className="col-md-12">
                             Highlights
@@ -345,7 +327,29 @@ class TokenizationFlow extends React.Component {
                 </div>
             </div>
             <div className="row">
-                Upload Project Image
+                <div className="col-md-6 mb-5">
+                    <div className="form-group-dropzone pt-2">
+                        <InputLabel htmlFor="about">Upload Project image</InputLabel>
+                        <Dropzone
+                            name="projectImage"
+                            className="dropDefault"
+                            accept=".jpeg,.png"
+                            onDrop={(accepted, rejected) => {
+                                this.setState({accepted, rejected});
+                            }}
+                        >
+                            {({isDragActive, isDragReject}) => {
+                                if (isDragActive) {
+                                    return 'All files will be accepted';
+                                }
+                                if (isDragReject) {
+                                    return 'Some files will be rejected';
+                                }
+                                return '';
+                            }}
+                        </Dropzone>
+                    </div>
+                </div>
             </div>
 
         </div>
